@@ -9,10 +9,10 @@ function MainPage() {
                 <img src={'https://i.pinimg.com/control/564x/24/37/bb/2437bbd6e6330d20dac79146add7e8f7.jpg'}/>
             </ImgBox>
             <ItemBox>
+                <h1>메인 페이지입니다 ٩( ᐛ )و </h1>
             </ItemBox>
-            <ItemBox>
-                <h1>메인 페이지입니다~!</h1>
-            </ItemBox>
+        {/*    여기에 서연이랑 승아 페이지로 이동할 수 있는 버튼을 만들어 주세요!! */}
+
         </Wrapper>
 
     );
@@ -22,33 +22,7 @@ export default MainPage;
 const Wrapper = styled.div`
 `;
 
-const Btn =styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 30px;
-    background: cadetblue;
-    border-radius: 20px;
-    margin: 10px;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    &:hover{
-        border: 2px solid cadetblue;
-        background: white;
-        color: black;
-    }
 
-`
-const Input = styled.input`
-    width: 300px;
-    height: 30px;
-    border-radius: 20px;
-    border: 2px solid cadetblue;
-    padding-left: 16px;
-    margin-top: 10px;
-`
 
 const ImgBox = styled.div`
    img{
@@ -61,4 +35,16 @@ const ItemBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @font-face {
+        font-family: 'HSSanTokki20-Regular';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+    h1{
+        color: white;
+        font-family: 'HSSanTokki20-Regular';
+        
+    }
 `
+

@@ -12,7 +12,6 @@ function App() {
               <Route path="/" element={<MainPage/>} />
               <Route path="/seoyeon" element={<SeoYeonPage/>} />
               <Route path="/seungah" element={<SeungAhPage/>} />
-
           </Routes>
       </Wrapper>
   )
@@ -27,8 +26,9 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F5F5F5;
+    background: #6d8b9f;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    
 `
